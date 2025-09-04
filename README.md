@@ -1,6 +1,6 @@
 # Logistics Management System
 
-**Tech Stack:** Spring Boot · Java · PostgreSQL · JPA/Hibernate · Spring Security  
+**Tech Stack:** Spring Boot · Java · PostgreSQL · JPA · Spring Security  
 
 A full-stack logistics management system that allows admins to manage shipments, track drivers, and update shipment statuses with automated status tracking.
 
@@ -18,14 +18,12 @@ A full-stack logistics management system that allows admins to manage shipments,
 
 ## Screenshots
 
-**Shipment List Page**  
-<img width="1912" height="940" alt="Shipment List" src="https://via.placeholder.com/800x400.png?text=Shipment+List+Page" />
+**Home Page**  
+<img width="1901" height="939" alt="image" src="https://github.com/user-attachments/assets/4c66755f-c2f5-41c2-8763-bf91f6519bf7" />
 
-**Shipment Details Page**  
-<img width="1912" height="940" alt="Shipment Details" src="https://via.placeholder.com/800x400.png?text=Shipment+Details+Page" />
 
-**Driver Assignment Page**  
-<img width="1912" height="940" alt="Driver Assignment" src="https://via.placeholder.com/800x400.png?text=Driver+Assignment+Page" />
+**Shipment Page**  
+<img width="1900" height="941" alt="image" src="https://github.com/user-attachments/assets/596d8239-17aa-45e9-b4bb-f01396ec7200" />
 
 ---
 
@@ -34,8 +32,6 @@ A full-stack logistics management system that allows admins to manage shipments,
 - **Backend:** Spring Boot exposes RESTful APIs for shipment CRUD, driver assignment, and shipment tracking.  
 - **Database:** PostgreSQL with JPA/Hibernate handles persistent storage for shipments, drivers, and statuses.  
 - **Security:** Spring Security provides role-based authentication and authorization.  
-- **Date Handling:** Supports parsing both offset (`2024-05-01T08:30:00Z`) and local datetime formats (`2024-05-01T08:30:00`).  
-
 ---
 
 ## API Endpoints
@@ -49,10 +45,4 @@ A full-stack logistics management system that allows admins to manage shipments,
 - `GET /api/shipments/status/{status}` — Get shipments by status  
 - `GET /api/shipments/delayed` — Get delayed shipments  
 
----
 
-## Usage
-
-1. Start the Spring Boot application:  
-   ```bash
-   mvn spring-boot:run
